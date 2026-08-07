@@ -8,15 +8,18 @@ hf download oscarchew/clip-cross-eyed-data --repo-type dataset --local-dir ./dat
 ```
 This dataset is derived from [whatsup_vlms](https://github.com/amitakamath/whatsup_vlms). We thank its authors for the inspiring research and making their work publicly available.
 
+Models
+---
+All OpenCLIP/OpenAI CLIP models are directly supported. For [NegCLIP](https://github.com/mertyg/vision-language-models-are-bows), [DetailCLIP](https://github.com/KishoreP1/DetailCLIP), [SuperCLIP](https://github.com/hustvl/SuperCLIP), please download the weights from their original sources and place them at `checkpoints`.
+
 Usage
 ---
 To reproduce the results on What'sUp:
 ```
-python3 src/whatsup_inference.py
+python3 src/inference_whatsup.py
 ```
 
 To reproduce the results on GRID:
 ```
-python3 src/grid_inference.py
+python3 src/inference_grid.py
 ```
-
