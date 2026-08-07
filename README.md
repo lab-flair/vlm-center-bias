@@ -23,3 +23,17 @@ To reproduce the results on GRID:
 ```
 python3 src/inference_grid.py
 ```
+
+Citation
+---
+Please consider citing our paper if you find our work helpful. Thank you!
+```
+@inproceedings{
+    chew2026clip,
+    title={Is CLIP Cross-Eyed? Revealing and Mitigating Center Bias in the CLIP Family},
+    author={Chew, Oscar and Huang, Hsiao-Ying and Jain, Kunal and Chen, Tai-I and Doan, Khoa D and Huang, Kuan-Hao},
+    booktitle={Third Conference on Language Modeling},
+    year={2026},
+    url={https://openreview.net/forum?id=ieFdrMYzog}
+}
+```
